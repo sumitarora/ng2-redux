@@ -23,7 +23,6 @@ module.exports = {
      'node_modules'
    ],
    alias: {		
-     angular2$: __dirname + '/../../node_modules/angular2',
      'ng2-redux$':__dirname + '/../../src'
      }
   },

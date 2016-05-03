@@ -1,10 +1,12 @@
-import 'es6-shim';
-import 'angular2/bundles/angular2-polyfills'
-import 'angular2/platform/browser'
-import 'angular2/platform/common_dom'
-import 'angular2/core'
-import 'angular2/router'
-import 'angular2/http'
+import 'core-js/es6';
+import 'core-js/es7/reflect';
+require('zone.js/dist/zone');
+
+import '@angular/platform-browser'
+import '@angular/common'
+import '@angular/core'
+import '@angular/router-deprecated'
+import '@angular/http'
 import 'redux'
 import 'redux-thunk'
 import 'redux-logger'
